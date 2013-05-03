@@ -8,12 +8,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-ajax-search',
-    version=__import__('ajax-search').__version__,
-    packages=['ajax-search'],
+    version=__import__('ajax_search').__version__,
+    packages=['ajax_search'],
     include_package_data=True,
     license='BSD',
     description='A customizable AJAX-powered search for Django.',
-    long_description=open('README.rst').read(),
+    long_description=open('README.txt').read(),
     url='http://prasenjitsingh.com/opensource/django-ajax-search/',
     author='Prasenjit Singh',
     author_email='prasenjit0625@gmail.com',

@@ -7,7 +7,7 @@ In the template where you need the dropdown displayed, include this code in the 
     
     <div id='searchdropdown'></div>
 
-In the media/css folder, open the **ajax-search.css** file. Therein you'll find specifications for the very first element called **searchdropdown**. Uncomment the lines and define it's position according to your needs.     
+In the media/css folder, open the **ajax_search.css** file. Therein you'll find specifications for the very first element called **searchdropdown**. Uncomment the lines and define it's position according to your needs.     
     
 You may also make other changes to the CSS file to change the look and feel of the components.    
     

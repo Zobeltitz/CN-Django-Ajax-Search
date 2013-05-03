@@ -19,7 +19,7 @@ import simplejson
 import urllib
 import datetime
 import os, sys, Image
-from ajax-search.forms import SearchForm
+from ajax_search.forms import SearchForm
 from django.conf import settings
 
 def xhr_search(request):

@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
 Name: django-ajax-search
-Version: 1.0.6
+Version: 1.3.2
 Summary: A customizable AJAX-powered search for Django.
-Home-page: http://www.example.com/
+Home-page: http://prasenjitsingh.com/opensource/django-ajax-search/
 Author: Prasenjit Singh
 Author-email: prasenjit0625@gmail.com
 License: BSD
@@ -48,6 +48,7 @@ Description: django-ajax-search
                 url(r'^ajax-search/',include('ajax-search.urls')),
             )
         
+        Full documentation at http://django-ajax-search.readthedocs.org/
         	
         Additional Help/Support
         -----------------------------------

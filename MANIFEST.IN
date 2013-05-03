@@ -1,4 +1,4 @@
 include LICENSE.txt
 include README.rst
-recursive-include ajax-search/media *
-recursive-include ajax-search/templates *
+recursive-include ajax_search/media *
+recursive-include ajax_search/templates *

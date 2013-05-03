@@ -9,12 +9,12 @@ To install::
     
     easy_install django-ajax-search
 
-Next add `ajax-search` to your `INSTALLED_APPS` to include the related css/js::
+Next add `ajax_search` to your `INSTALLED_APPS` to include the related css/js::
 
     INSTALLED_APPS = (
         'django.contrib.staticfiles',
         # Other apps here
-        'ajax-search',
+        'ajax_search',
     )
 
 
@@ -22,7 +22,7 @@ Once installed you should add the urls to your root url patterns::
 
     urlpatterns = patterns('',
         # Other patterns go here
-        url(r'^ajax-search/',include('ajax-search.urls')),
+        url(r'^ajax_search/',include('ajax_search.urls')),
     )
 
 Now that you're done with the setup, :doc:`configure your installation</config>`.
