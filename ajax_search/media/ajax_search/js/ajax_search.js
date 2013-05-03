@@ -20,6 +20,46 @@ $("#searchdropdown").hover(function() {
   });
 });
 	
+
+
+
+/*
+$(document).ready(function() {
+    var $submit = $("#ajaxsearch"),
+        $inputs = $('#searchbuttonmain');
+
+    function checkEmpty() {
+
+        // filter over the empty inputs
+
+        return $inputs.filter(function() {
+            return !$.trim(this.value);
+        }).length === 0;
+    }
+
+    $inputs.on('blur', function() {
+        $submit.prop("disabled", !checkEmpty());
+    }).blur(); // trigger an initial blur
+});*/
+
+
+
+
+
+
+
+function ajaxsearch(){
+$.post(pathname, { 
+    query: $("#ajaxsearch").val()
+},
+    function(data) {
+        $("#searchdropdown").html(data.name);
+    }
+);
+}
+
+
+
 $(document).ready(function(){
 $("#ajaxsearch").focus(function() {
 $(this).data("hasfocus", true);
@@ -79,39 +119,3 @@ if ($("#ajaxsearch").val()){
 );}
 });
 });
-
-
-/*
-$(document).ready(function() {
-    var $submit = $("#ajaxsearch"),
-        $inputs = $('#searchbuttonmain');
-
-    function checkEmpty() {
-
-        // filter over the empty inputs
-
-        return $inputs.filter(function() {
-            return !$.trim(this.value);
-        }).length === 0;
-    }
-
-    $inputs.on('blur', function() {
-        $submit.prop("disabled", !checkEmpty());
-    }).blur(); // trigger an initial blur
-});*/
-
-
-
-
-
-
-
-function ajaxsearch(){
-$.post(pathname, { 
-    query: $("#ajaxsearch").val()
-},
-    function(data) {
-        $("#searchdropdown").html(data.name);
-    }
-);
-}
