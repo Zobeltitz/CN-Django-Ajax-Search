@@ -47,7 +47,7 @@ def xhr_search(request):
 			req ['name']+=e
 			req ['name']+="""</p></a></div>"""
 		if model_list.count()>num:
-			req ['name']+="""<div class="searchdropdowndiv" style="border-top:1px solid #e8e8e8;"><a href='ajax-search/search/?q="""
+			req ['name']+="""<div class="searchdropdowndiv" style="border-top:1px solid #e8e8e8;"><a href='ajax_search/search/?q="""
 			req ['name']+=query
 			req ['name']+="""' style="text-decoration:none;"><p style="font-size:14px; color:#a2a2a2;">See all results</p></a></div>""" 
 			

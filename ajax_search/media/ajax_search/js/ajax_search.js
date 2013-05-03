@@ -1,4 +1,4 @@
-var pathname = window.location.origin+"/ajax-search/xhr_search";
+var pathname = window.location.origin+"/ajax_search/xhr_search";
 
 $(document).ready(function(){
 if((!($("#searchdropdown:hover").length)) && (!($("#ajaxsearch:hover").length))){
