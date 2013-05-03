@@ -1,9 +1,9 @@
 README.txt
 setup.py
-ajax-search/__init__.py
-ajax-search/forms.py
-ajax-search/urls.py
-ajax-search/views.py
+ajax_search/__init__.py
+ajax_search/forms.py
+ajax_search/urls.py
+ajax_search/views.py
 django_ajax_search.egg-info/PKG-INFO
 django_ajax_search.egg-info/SOURCES.txt
 django_ajax_search.egg-info/dependency_links.txt

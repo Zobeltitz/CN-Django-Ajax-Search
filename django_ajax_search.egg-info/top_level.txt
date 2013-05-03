@@ -1,1 +1,1 @@
-ajax-search
+ajax_search
