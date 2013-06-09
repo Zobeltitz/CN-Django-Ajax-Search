@@ -7,12 +7,12 @@ from setuptools import setup
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-ajax-search',
+    name='django-ajax-search-cn',
     version=__import__('ajax_search').__version__,
     packages=['ajax_search'],
     include_package_data=True,
     license='BSD',
-    description='A customizable AJAX-powered search for Django.',
+    description='基于Django与Ajax的搜索引擎',
     long_description=open('README.txt').read(),
     url='https://github.com/Zobeltitz/django-ajax-search',
     author='Zobeltitz 中国',
