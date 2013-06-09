@@ -14,9 +14,9 @@ setup(
     license='BSD',
     description='A customizable AJAX-powered search for Django.',
     long_description=open('README.txt').read(),
-    url='http://prasenjitsingh.com/opensource/django-ajax-search/',
-    author='Prasenjit Singh',
-    author_email='prasenjit0625@gmail.com',
+    url='https://github.com/Zobeltitz/django-ajax-search',
+    author='Zobeltitz 中国',
+    author_email='admin@ixiling.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
