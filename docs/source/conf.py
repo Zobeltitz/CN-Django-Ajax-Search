@@ -167,7 +167,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Django-ajax-searchdoc'
+htmlhelp_basename = 'Django-ajax-search-doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -187,7 +187,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'Django-ajax-search.tex', u'Django-ajax-search Documentation',
-   u'Prasenjit Singh', 'manual'),
+   u'Zobeltitz', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -217,7 +217,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'django-ajax-search', u'Django-ajax-search Documentation',
-     [u'Prasenjit Singh'], 1)
+     [u'Zobeltitz'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -231,7 +231,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Django-ajax-search', u'Django-ajax-search Documentation',
-   u'Prasenjit Singh', 'Django-ajax-search', 'One line description of project.',
+   u'Zobeltitz', 'Django-ajax-search', 'One line description of project.',
    'Miscellaneous'),
 ]
 
