@@ -1,4 +1,5 @@
 基于Django与Ajax的搜索引擎
+http://zobeltitz.github.io/Django-Ajax-Search
 ===================
 
 基于Django,可以自定义的异步搜索
