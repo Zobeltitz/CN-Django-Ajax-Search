@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="基于Django与Ajax的搜索引擎 : 基于Django,可以自定义的异步搜索" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>基于Django与Ajax的搜索引擎</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Zobeltitz/Django-Ajax-Search">View on GitHub</a>
+
+          <h1 id="project_title">基于Django与Ajax的搜索引擎</h1>
+          <h2 id="project_tagline">基于Django,可以自定义的异步搜索</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Zobeltitz/Django-Ajax-Search/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Zobeltitz/Django-Ajax-Search/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="djangoajax" class="anchor" href="#djangoajax"><span class="octicon octicon-link"></span></a>基于Django与Ajax的搜索引擎</h1>
+
+<h1></h1>
+
+<p>基于Django,可以自定义的异步搜索</p>
+
+<h2>
+<a name="-1" class="anchor" href="#-1"><span class="octicon octicon-link"></span></a>特性</h2>
+
+<ul>
+<li>使用的最新版本jQuery库</li>
+<li>显示实时搜索结果</li>
+</ul><h2>
+<a name="-2" class="anchor" href="#-2"><span class="octicon octicon-link"></span></a>安装要求</h2>
+
+<ul>
+<li>Python 2.6 或 Python 2.7</li>
+<li>
+<code>Django &lt;http://www.djangoproject.com/&gt;</code>_ &gt;= 1.3</li>
+<li>
+<code>jQuery &lt;http://jquery.com/&gt;</code>_ &gt;= 1.4.4</li>
+</ul><p>安装::</p>
+
+<pre><code>easy_install django-ajax-search
+</code></pre>
+
+<p>接下来，添加<code>ajax_search</code> 到你的 <code>INSTALLED_APPS</code> 并包含css和js::</p>
+
+<pre><code>INSTALLED_APPS = (
+    'django.contrib.staticfiles',
+    # Other apps here
+    'ajax_search',
+)
+</code></pre>
+
+<p>搞定你的URL::</p>
+
+<pre><code>urlpatterns = patterns('',
+    # Other patterns go here
+    url(r'^ajax_search/',include('ajax_search.urls')),
+)
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">基于Django与Ajax的搜索引擎 maintained by <a href="https://github.com/Zobeltitz">Zobeltitz</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
