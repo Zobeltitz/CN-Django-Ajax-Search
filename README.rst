@@ -1,8 +1,10 @@
 基于Django与Ajax的搜索引擎
-http://zobeltitz.github.io/Django-Ajax-Search
+
 ===================
 
 基于Django,可以自定义的异步搜索
+
+    http://zobeltitz.github.io/CN-Django-Ajax-Search
 
 特性
 -----------------------------------
@@ -33,7 +35,7 @@ http://zobeltitz.github.io/Django-Ajax-Search
 
 搞定你的URL::
 
-    urlpatterns = patterns('',
-        # Other patterns go here
-        url(r'^ajax_search/',include('ajax_search.urls')),
-    )
+        urlpatterns = patterns('',
+            # Other patterns go here
+          url(r'^ajax_search/',include('ajax_search.urls')),
+          )
